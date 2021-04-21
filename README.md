@@ -6,5 +6,4 @@ A small place for Emili to practice Git
 - must remember .md and write *to do lists* in Obsidian
 - alloate more time to practicing 
 - must switch to an american keyboard
-- must adopt a shorter email address
 
