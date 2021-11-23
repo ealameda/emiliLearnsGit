@@ -20,4 +20,13 @@ func TestHello(t *testing.T) {
 			t.Errorf("I wanted %q but I got %q", want, got)
 		}
 	})
+
+	t.Run("says hello to World if no name is provided", func(t *testing.T) {
+		got := Hello("")
+		want := "Hello, World"
+
+		if got != want {
+			t.Errorf("I wanted %q but I got %q", want, got)
+		}
+	})
 }
